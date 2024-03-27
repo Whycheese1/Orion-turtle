@@ -1,0 +1,65 @@
+import turtle as t
+
+window = t.Screen()
+window.bgcolor("white")
+
+orion = t.Turtle()
+orion.pensize(10)
+
+# for color in ["white", "yellow"]: #"pink", "purple", "royal blue", "pink", "purple", "royal blue", "pink", "purple", "royal blue", "white", "yellow", "pink", "purple", "royal blue", "pink", "purple", "royal blue", "pink", "purple", "royal blue"]:
+#     orion.color(color)
+orion.speed(1000)
+orion.forward(200)
+orion.left(90)
+orion.forward(50)
+orion.left(90)
+orion.forward(40)
+orion.right(90)
+orion.forward(50)
+
+orion.left(90)
+orion.forward(60)
+orion.left(30)
+orion.forward(120)
+orion.left(60)
+orion.forward(40)
+
+orion.left(90)
+orion.forward(40)
+orion.left(180)
+orion.circle(20)
+
+orion.left(180)
+orion.forward(100)
+orion.left(180)
+orion.circle(20)
+
+orion.left(180)
+orion.forward(64)
+orion.left(90)
+orion.forward(25)
+orion.begin_fill()
+orion.circle(10)
+orion.end_fill()
+
+
+orion.forward(10)
+orion.right(30)
+orion.forward(60)
+orion.left(180)
+orion.forward(60)
+orion.left(90)
+orion.forward(60)
+orion.right(180)
+orion.forward(60)
+orion.left(200)
+orion.forward(60)
+orion.left(180)
+orion.forward(60)
+orion.right(150)
+orion.forward(60)
+    
+    
+    
+    
+    
