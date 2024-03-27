@@ -27,17 +27,18 @@ for color in ["white"]:#, "pink", "purple", "royal blue", "pink", "purple", "roy
     orion.left(90)
     orion.forward(40)
     orion.left(180)
-    orion.circle(30)
+    orion.circle(20)
     
     orion.left(180)
     orion.forward(100)
     orion.left(180)
-    orion.circle(30)
+    orion.circle(20)
     
     orion.left(180)
     orion.forward(64)
     orion.left(90)
     orion.forward(25)
+    orion.fillcolor("yellow")
     orion.circle(10)
-    orion.endfill("yellow")
+    
     
